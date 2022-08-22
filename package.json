@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-aws-s3-with-webp",
-  "version": "3.1.5",
+  "version": "4.3.4",
   "description": "AWS S3 provider for strapi upload",
   "homepage": "http://strapi.io",
   "keywords": [
@@ -14,8 +14,8 @@
   },
   "main": "./lib",
   "dependencies": {
-    "aws-sdk": "^2.756.0",
-    "sharp": "^0.26.0"
+    "aws-sdk": "2.1188.0",
+    "sharp": "^0.30.7"
   },
   "strapi": {
     "isProvider": true
@@ -32,7 +32,7 @@
     "url": "https://github.com/strapi/strapi/issues"
   },
   "engines": {
-    "node": ">=10.0.0",
+    "node": ">=14.19.1 <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT",
